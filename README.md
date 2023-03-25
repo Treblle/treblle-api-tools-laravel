@@ -2,6 +2,7 @@
 
 [![Latest Version](https://img.shields.io/packagist/v/treblle/treblle-api-tools-laravel)](https://packagist.org/packages/treblle/treblle-api-tools-laravel)
 [![PHP Version](https://img.shields.io/packagist/php-v/treblle/treblle-api-tools-laravel.svg?style=flat-square)](https://php.net)
+[![Tests](https://github.com/treblle/treblle-api-tools-laravel/actions/workflows/tests.yml/badge.svg)](https://github.com/treblle/treblle-api-tools-laravel/actions/workflows/tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/treblle/treblle-api-tools-laravel)](https://packagist.org/packages/treblle/treblle-api-tools-laravel)
 [![MIT Licence](https://img.shields.io/packagist/l/treblle/treblle-api-tools-laravel)](LICENSE)
 
