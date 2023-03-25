@@ -22,7 +22,7 @@ A set of useful tools for building APIs in Laravel.
 
 ## Requirements
 
-* PHP 8.1+
+* PHP 8.2+
 * Laravel 9+
 
 ## Installation
