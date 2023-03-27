@@ -34,7 +34,34 @@ composer require treblle/treblle-api-tools-laravel
 
 ## Usage
 
-Coming soon ...
+### Headers
+
+#### Authorization
+
+You can use the Authorization Header can be used like the following:
+
+```php
+use Treblle\Tools\Http\Enums\Headers\AuthScheme;
+use Treblle\Tools\Http\Headers\Authorization;
+
+$auth = new Authorization(
+    type: AuthScheme::BEARER,
+    credentials: 'YOUR_API_TOKEN_HERE',
+);
+
+// Turn the header into an array
+$array = $auth->toArray();
+//[
+//    'type' => AuthScheme::BEARER,
+//    'credentials' => 'YOUR_API_TOKEN_HERE'
+//]
+
+// Turn the header into a header
+$header = $auth->toHeader();
+//[
+//    'Authorization' => 'Bearer YOUR_API_TOKEN_HERE',
+//]
+```
 
 ## Support
 
